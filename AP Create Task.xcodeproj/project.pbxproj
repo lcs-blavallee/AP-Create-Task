@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		9B15CEEC2D9EDF2700D5433A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9B15CED22D9EDF2600D5433A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B15CED92D9EDF2600D5433A;
-			remoteInfo = "AP Create Task";
-		};
-		9B15CEF62D9EDF2800D5433A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9B15CED22D9EDF2600D5433A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B15CED92D9EDF2600D5433A;
-			remoteInfo = "AP Create Task";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		9B15CEDA2D9EDF2600D5433A /* AP Create Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AP Create Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B15CEEB2D9EDF2700D5433A /* AP Create TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AP Create TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B15CEF52D9EDF2800D5433A /* AP Create TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AP Create TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,34 +16,10 @@
 			path = "AP Create Task";
 			sourceTree = "<group>";
 		};
-		9B15CEEE2D9EDF2700D5433A /* AP Create TaskTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "AP Create TaskTests";
-			sourceTree = "<group>";
-		};
-		9B15CEF82D9EDF2800D5433A /* AP Create TaskUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "AP Create TaskUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9B15CED72D9EDF2600D5433A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B15CEE82D9EDF2700D5433A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B15CEF22D9EDF2800D5433A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				9B15CEDC2D9EDF2600D5433A /* AP Create Task */,
-				9B15CEEE2D9EDF2700D5433A /* AP Create TaskTests */,
-				9B15CEF82D9EDF2800D5433A /* AP Create TaskUITests */,
 				9B15CEDB2D9EDF2600D5433A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				9B15CEDA2D9EDF2600D5433A /* AP Create Task.app */,
-				9B15CEEB2D9EDF2700D5433A /* AP Create TaskTests.xctest */,
-				9B15CEF52D9EDF2800D5433A /* AP Create TaskUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +70,6 @@
 			productReference = 9B15CEDA2D9EDF2600D5433A /* AP Create Task.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9B15CEEA2D9EDF2700D5433A /* AP Create TaskTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B15CF022D9EDF2800D5433A /* Build configuration list for PBXNativeTarget "AP Create TaskTests" */;
-			buildPhases = (
-				9B15CEE72D9EDF2700D5433A /* Sources */,
-				9B15CEE82D9EDF2700D5433A /* Frameworks */,
-				9B15CEE92D9EDF2700D5433A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B15CEED2D9EDF2700D5433A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				9B15CEEE2D9EDF2700D5433A /* AP Create TaskTests */,
-			);
-			name = "AP Create TaskTests";
-			packageProductDependencies = (
-			);
-			productName = "AP Create TaskTests";
-			productReference = 9B15CEEB2D9EDF2700D5433A /* AP Create TaskTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9B15CEF42D9EDF2800D5433A /* AP Create TaskUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B15CF052D9EDF2800D5433A /* Build configuration list for PBXNativeTarget "AP Create TaskUITests" */;
-			buildPhases = (
-				9B15CEF12D9EDF2800D5433A /* Sources */,
-				9B15CEF22D9EDF2800D5433A /* Frameworks */,
-				9B15CEF32D9EDF2800D5433A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B15CEF72D9EDF2800D5433A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				9B15CEF82D9EDF2800D5433A /* AP Create TaskUITests */,
-			);
-			name = "AP Create TaskUITests";
-			packageProductDependencies = (
-			);
-			productName = "AP Create TaskUITests";
-			productReference = 9B15CEF52D9EDF2800D5433A /* AP Create TaskUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +82,6 @@
 				TargetAttributes = {
 					9B15CED92D9EDF2600D5433A = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					9B15CEEA2D9EDF2700D5433A = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 9B15CED92D9EDF2600D5433A;
-					};
-					9B15CEF42D9EDF2800D5433A = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 9B15CED92D9EDF2600D5433A;
 					};
 				};
 			};
@@ -201,28 +100,12 @@
 			projectRoot = "";
 			targets = (
 				9B15CED92D9EDF2600D5433A /* AP Create Task */,
-				9B15CEEA2D9EDF2700D5433A /* AP Create TaskTests */,
-				9B15CEF42D9EDF2800D5433A /* AP Create TaskUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9B15CED82D9EDF2600D5433A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B15CEE92D9EDF2700D5433A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B15CEF32D9EDF2800D5433A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B15CEE72D9EDF2700D5433A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B15CEF12D9EDF2800D5433A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9B15CEED2D9EDF2700D5433A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B15CED92D9EDF2600D5433A /* AP Create Task */;
-			targetProxy = 9B15CEEC2D9EDF2700D5433A /* PBXContainerItemProxy */;
-		};
-		9B15CEF72D9EDF2800D5433A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B15CED92D9EDF2600D5433A /* AP Create Task */;
-			targetProxy = 9B15CEF62D9EDF2800D5433A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9B15CEFD2D9EDF2800D5433A /* Debug */ = {
@@ -437,70 +293,6 @@
 			};
 			name = Release;
 		};
-		9B15CF032D9EDF2800D5433A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.blavallee.AP-Create-TaskTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AP Create Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AP Create Task";
-			};
-			name = Debug;
-		};
-		9B15CF042D9EDF2800D5433A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.blavallee.AP-Create-TaskTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AP Create Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AP Create Task";
-			};
-			name = Release;
-		};
-		9B15CF062D9EDF2800D5433A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.blavallee.AP-Create-TaskUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "AP Create Task";
-			};
-			name = Debug;
-		};
-		9B15CF072D9EDF2800D5433A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.blavallee.AP-Create-TaskUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "AP Create Task";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -518,24 +310,6 @@
 			buildConfigurations = (
 				9B15CF002D9EDF2800D5433A /* Debug */,
 				9B15CF012D9EDF2800D5433A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B15CF022D9EDF2800D5433A /* Build configuration list for PBXNativeTarget "AP Create TaskTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B15CF032D9EDF2800D5433A /* Debug */,
-				9B15CF042D9EDF2800D5433A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B15CF052D9EDF2800D5433A /* Build configuration list for PBXNativeTarget "AP Create TaskUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B15CF062D9EDF2800D5433A /* Debug */,
-				9B15CF072D9EDF2800D5433A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
