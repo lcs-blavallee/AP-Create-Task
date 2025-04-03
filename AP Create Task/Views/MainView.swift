@@ -7,18 +7,42 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
+    
+    // MARK: Stored properties
+    @State var numberInputed: String = ""
+    @State var binaryArray: [Binary] = []
+
+    // MARK: Computed properties
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 20) {
+            
+            TextField("Input a number", text: $numberInputed)
+                .padding()
+                .frame(width: 300, height: 50)
+            
+            Button("Convert to Binary") {
+                if let num = Int(numberInputed) {
+                    binaryArray = convertToBinary(number: num)
+                } else {
+                    binaryArray = []
+                }
+            }
+            .padding()
+
+            Text("Binary:")
+                .font(.headline)
+
+            HStack {
+                ForEach(binaryArray) { bit in
+                    Text("\(bit.digit)")
+                        .font(.system(size: 32))
+                        .monospacedDigit()
+                }
+            }
+
+            Spacer()
         }
         .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }
