@@ -7,6 +7,8 @@
 
 import Foundation
 
+// function to convert to base 10 using "positional notation" algorithm
+
 func decodeFromBinary(binaryNumber: Int) -> Int {
     var numResult = 0
     var binaryNum = binaryNumber
